@@ -94,8 +94,46 @@ class ResetScoreSubState extends MusicBeatSubstate
 			if(onYes) {
 				if(week == -1) {
 					Highscore.resetSong(song, difficulty);
+					if (FlxG.save.data.fcList == null) FlxG.save.data.fcList = [];
+					if (FlxG.save.data.fcList == null) FlxG.save.data.fcDiff = [];
+
+					var songs:Array<String> = FlxG.save.data.fcList;
+					var diff:Array<Int> = FlxG.save.data.fcDiff;
+
+					for (i in 0...songs.length)
+					{
+						if (songs[i] == song)
+						{
+							diff.splice(i, 1);
+							songs.remove(song);
+							trace(diff);
+							trace(songs);
+						}
+					}
+					FlxG.save.data.fcList = songs;
+					FlxG.save.data.fcDiff = diff;
 				} else {
 					Highscore.resetWeek(WeekData.weeksList[week], difficulty);
+					var songs:Array<String> = FlxG.save.data.fcList;
+					var diff:Array<Int> = FlxG.save.data.fcDiff;
+					// i forgot theres no story mode on our mod
+					var curWeek = WeekData.weeksLoaded.get(WeekData.weeksList[week]).songs;
+					for (I in 0...curWeek.length)
+					{
+						var songName = curWeek[I][0];
+						for (i in 0...songs.length)
+						{
+							if (songs[i] == songName)
+							{
+								diff.splice(i, 1);
+								songs.remove(song);
+								trace(diff);
+								trace(songs);
+							}
+						}
+					}
+					FlxG.save.data.fcList = songs;
+					FlxG.save.data.fcDiff = diff;
 				}
 			}
 			FlxG.sound.play(Paths.sound('cancelMenu'), 1);
