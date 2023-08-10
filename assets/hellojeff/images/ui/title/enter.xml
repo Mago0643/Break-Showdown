@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="enter.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="enter start0000" x="0" y="0" width="395" height="72"/>
+	<SubTexture name="enter start0001" x="0" y="82" width="395" height="72"/>
+	<SubTexture name="enter start0002" x="0" y="0" width="395" height="72"/>
+	<SubTexture name="enter start0003" x="0" y="82" width="395" height="72"/>
+	<SubTexture name="enter start0004" x="0" y="0" width="395" height="72"/>
+	<SubTexture name="enter start0005" x="0" y="82" width="395" height="72"/>
+	<SubTexture name="enter start0006" x="0" y="0" width="395" height="72"/>
+	<SubTexture name="enter start0007" x="0" y="82" width="395" height="72"/>
+	<SubTexture name="enter start0008" x="0" y="0" width="395" height="72"/>
+	<SubTexture name="enter start0009" x="0" y="82" width="395" height="72"/>
+	<SubTexture name="press to start0000" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0001" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0002" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0003" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0004" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0005" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0006" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0007" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0008" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0009" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0010" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0011" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0012" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0013" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0014" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0015" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0016" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0017" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0018" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0019" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0020" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0021" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0022" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0023" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0024" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0025" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0026" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0027" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0028" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0029" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0030" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0031" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0032" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0033" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0034" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0035" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0036" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0037" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0038" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0039" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0040" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0041" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0042" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0043" x="0" y="164" width="396" height="71"/>
+	<SubTexture name="press to start0044" x="0" y="164" width="396" height="71"/>
+</TextureAtlas>

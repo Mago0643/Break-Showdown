@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="choma41.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="choma410000" x="0" y="0" width="357" height="610" frameX="0" frameY="-13" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410001" x="0" y="0" width="357" height="610" frameX="0" frameY="-13" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410002" x="367" y="0" width="357" height="610" frameX="-2" frameY="-13" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410003" x="367" y="0" width="357" height="610" frameX="-2" frameY="-13" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410004" x="734" y="0" width="358" height="613" frameX="-3" frameY="-10" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410005" x="734" y="0" width="358" height="613" frameX="-3" frameY="-10" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410006" x="1102" y="0" width="360" height="619" frameX="-5" frameY="-4" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410007" x="1102" y="0" width="360" height="619" frameX="-5" frameY="-4" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410008" x="1472" y="0" width="362" height="623" frameX="-5" frameY="0" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410009" x="1472" y="0" width="362" height="623" frameX="-5" frameY="0" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410010" x="1472" y="0" width="362" height="623" frameX="-5" frameY="0" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410011" x="1472" y="0" width="362" height="623" frameX="-5" frameY="0" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410012" x="1472" y="0" width="362" height="623" frameX="-5" frameY="0" frameWidth="367" frameHeight="623"/>
+	<SubTexture name="choma410013" x="1472" y="0" width="362" height="623" frameX="-5" frameY="0" frameWidth="367" frameHeight="623"/>
+</TextureAtlas>

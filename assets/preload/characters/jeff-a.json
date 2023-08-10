@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				51,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				35,
+				-94
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				16,
+				44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-40,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				-2
+			],
+			"anim": "sleep",
+			"fps": 24,
+			"name": "sleep",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-47,
+				-89
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "draw",
+			"indices": [],
+			"name": "draw"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-18
+			],
+			"anim": "start",
+			"fps": 24,
+			"name": "start",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-70,
+				-23
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "ready",
+			"loop": true,
+			"name": "ready"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jeffthekiller-a",
+	"position": [
+		30,
+		60
+	],
+	"healthicon": "jeff",
+	"flip_x": false,
+	"healthbar_colors": [
+		225,
+		225,
+		225
+	],
+	"camera_position": [
+		60,
+		60
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

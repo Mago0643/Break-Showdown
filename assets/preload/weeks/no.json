@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"Sweet Dream",
+			"jeff",
+			[
+				235,
+				235,
+				235
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "No.",
+	"weekName": "no",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "no",
+	"startUnlocked": true
+}

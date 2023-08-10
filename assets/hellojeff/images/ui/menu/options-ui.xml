@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="options-ui.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="options0000" x="0" y="0" width="480" height="438"/>
+	<SubTexture name="options0001" x="490" y="0" width="479" height="436" frameX="-1" frameY="-1" frameWidth="480" frameHeight="438"/>
+</TextureAtlas>

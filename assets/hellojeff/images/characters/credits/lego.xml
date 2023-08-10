@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lego.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lego0000" x="0" y="0" width="345" height="473" frameX="0" frameY="-7" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0001" x="0" y="0" width="345" height="473" frameX="0" frameY="-7" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0002" x="355" y="0" width="340" height="476" frameX="-2" frameY="-4" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0003" x="355" y="0" width="340" height="476" frameX="-2" frameY="-4" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0004" x="0" y="486" width="335" height="478" frameX="-5" frameY="-2" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0005" x="0" y="486" width="335" height="478" frameX="-5" frameY="-2" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0006" x="345" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0007" x="345" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0008" x="687" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0009" x="687" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0010" x="687" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0011" x="687" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0012" x="687" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+	<SubTexture name="lego0013" x="687" y="486" width="332" height="480" frameX="-6" frameY="0" frameWidth="345" frameHeight="480"/>
+</TextureAtlas>

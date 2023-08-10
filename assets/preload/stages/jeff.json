@@ -1,0 +1,15 @@
+{
+	"directory": "hellojeff",
+	"defaultZoom": 0.75,
+	"isPixelStage": false,
+
+	"boyfriend": [1150, 500],
+	"girlfriend": [750, 500],
+	"opponent": [520, 500],
+	"hide_girlfriend": false,
+
+	"camera_boyfriend": [-50, -100],
+	"camera_opponent": [0, 0],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1
+}

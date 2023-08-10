@@ -1,0 +1,15 @@
+{
+	"bfx": 625,
+	"bfy": 225,
+	"titlex": 12.5,
+	"titley": 12.5,
+	"startx": 50,
+	"starty": 502.5,
+	"gfx": 525,
+	"gfy": 40,
+	"backgroundSprite":"light",
+	"bpm":110,
+	"backgroundFolder": "hellojeff",
+	"maxCamZoom": 0.045,
+	"effectMaxSpr": 10
+}
