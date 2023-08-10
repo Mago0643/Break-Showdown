@@ -346,7 +346,10 @@ class FreeplayState extends MusicBeatState
 		fcSpr.loadGraphic(Paths.image("ui/free/fcn", "hellojeff"));
 		for (i in 0...song.length)
 		{
-			fcSpr.loadGraphic((song[i].toLowerCase() == songs[curSelected].songName.toLowerCase() && diff[i] == curDifficulty ? Paths.image("ui/free/fc", "hellojeff") : Paths.image("ui/free/fcn", "hellojeff")));
+			if (song[i].toLowerCase() == songs[curSelected].songName.toLowerCase() && diff[i] == curDifficulty)
+				fcSpr.loadGraphic(Paths.image("ui/free/fc", "hellojeff"))
+			else
+				fcSpr.loadGraphic(Paths.image("ui/free/fcn", "hellojeff"));
 		}
 	}
 
@@ -662,7 +665,7 @@ class FreeplayState extends MusicBeatState
 				FlxTween.tween(this, {blurVal: 0}, sex, {ease: aeuio});
 				FlxTween.tween(disk, {x: -disk.width - 5}, sex, {ease: aeuio});
 				FlxTween.tween(disket, {x: FlxG.width}, sex, {ease: aeuio});
-				for (i in [diffSpr, leftSpr, rightSpr, escSpr, infoTxt, bgBlk])
+				for (i in [diffSpr, leftSpr, rightSpr, escSpr, infoTxt, bgBlk, fcSpr])
 				{
 					FlxTween.tween(i, {alpha: 0}, sex, {ease: aeuio});
 				}
