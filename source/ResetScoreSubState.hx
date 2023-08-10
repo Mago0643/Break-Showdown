@@ -100,6 +100,7 @@ class ResetScoreSubState extends MusicBeatSubstate
 					var songs:Array<String> = FlxG.save.data.fcList;
 					var diff:Array<Int> = FlxG.save.data.fcDiff;
 
+					// help me
 					for (i in 0...songs.length)
 					{
 						if (songs[i].toLowerCase() == song.toLowerCase())
