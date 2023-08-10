@@ -102,10 +102,10 @@ class ResetScoreSubState extends MusicBeatSubstate
 
 					for (i in 0...songs.length)
 					{
-						if (songs[i] == song)
+						if (songs[i].toLowerCase() == song.toLowerCase())
 						{
 							diff.splice(i, 1);
-							songs.remove(song);
+							songs.remove(song.toLowerCase());
 							trace(diff);
 							trace(songs);
 						}
@@ -123,10 +123,10 @@ class ResetScoreSubState extends MusicBeatSubstate
 						var songName = curWeek[I][0];
 						for (i in 0...songs.length)
 						{
-							if (songs[i] == songName)
+							if (songs[i].toLowerCase() == songName.toLowerCase())
 							{
 								diff.splice(i, 1);
-								songs.remove(song);
+								songs.remove(song.toLowerCase());
 								trace(diff);
 								trace(songs);
 							}
