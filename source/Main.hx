@@ -90,6 +90,12 @@ class Main extends Sprite
 		ClientPrefs.loadDefaultKeys();
 		addChild(new FlxGame(game.width, game.height, game.initialState, #if (flixel < "5.0.0") game.zoom, #end game.framerate, game.framerate, game.skipSplash, game.startFullscreen));
 
+		Lib.application.window.resizable = false;
+		Lib.application.window.onFullscreen.add(function()
+		{
+			Lib.application.window.fullscreen = false;
+		});
+
 		#if !mobile
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
