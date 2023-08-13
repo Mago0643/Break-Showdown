@@ -33,7 +33,12 @@ class CoolUtil
 		trace(snap);
 		return (m / snap);
 	}
-	
+
+	public static function getFPSUpdateShitOrWhatever(val:Float):Float
+	{
+		return val / (Main.fpsVar.currentFPS / 60);
+	}
+
 	public static function getDifficultyFilePath(num:Null<Int> = null)
 	{
 		if(num == null) num = PlayState.storyDifficulty;

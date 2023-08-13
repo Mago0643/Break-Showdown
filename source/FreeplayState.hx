@@ -384,7 +384,7 @@ class FreeplayState extends MusicBeatState
 	var holdTime:Float = 0;
 	var stopSpamming:Bool = false;
 	var blurVal:Float = 0.0;
-	var diskSpd:Float = 2.5;
+	var diskSpd:Float = CoolUtil.getFPSUpdateShitOrWhatever(2.5);
 	override function update(elapsed:Float)
 	{
 		if (FlxG.sound.music.volume < 0.7)
@@ -580,7 +580,7 @@ class FreeplayState extends MusicBeatState
 						LoadingState.loadAndSwitchState(new ChartingState());
 					} else {
 						// what in the actually
-						FlxTween.tween(this, {diskSpd: 7.5}, 1, {ease: FlxEase.linear, onComplete: function(fuck:FlxTween)
+						FlxTween.tween(this, {diskSpd: CoolUtil.getFPSUpdateShitOrWhatever(7.5)}, 1, {ease: FlxEase.linear, onComplete: function(fuck:FlxTween)
 							{
 								FlxTween.tween(infoTxt, {y: FlxG.height}, time, {ease: ease});
 								FlxTween.tween(disk, {x: disket.x}, time, {ease: FlxEase.backIn, onComplete: function(t:FlxTween)
